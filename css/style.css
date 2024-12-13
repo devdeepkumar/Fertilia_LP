@@ -1475,6 +1475,7 @@ About Area
 }
 .about-right-img .about-open-hours ul li span {
   float: right;
+  text-transform: uppercase;
 }
 
 /*=================================
@@ -1814,13 +1815,16 @@ Service Area
   height: 75px;
   color: #ffffff;
   background-color: #1FA2FF;
-  line-height: 75px;
+  /* line-height: 75px; */
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 16px;
   border-radius: 50px;
   text-align: center;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .service-card .service-content h3 {
   margin-bottom: 15px;
@@ -5963,7 +5967,7 @@ Footer Area
 }
 .footer-widget .open-hours-list li {
   display: block;
-  margin-bottom: 13px;
+  margin-bottom: 12px;
   font-weight: 500;
   color: #252424;
   position: relative;
@@ -5983,6 +5987,7 @@ Footer Area
 }
 .footer-widget .open-hours-list li span {
   float: right;
+  text-transform: uppercase;
 }
 .footer-widget .social-link {
   margin: 0;
