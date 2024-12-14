@@ -368,7 +368,7 @@
     position: inherit;
     bottom: 0;
     right: 0;
-    left: 0;
+    left: -43px;
     margin: 0 auto;
     text-align: center;
   }
@@ -934,7 +934,7 @@
   }
   .newsletter-form .subscribe-btn {
     position: inherit;
-    top: 25px;
+    top: 30px;
     border-radius: 5px;
     margin-bottom: 30px;
   }
@@ -2245,7 +2245,7 @@
 
 @media (max-width:776px){
       .header-left .header-left-card ul li .head-icon{
-        top:-2px
+        top:-1px
       }
 
       .banner-img-2{
@@ -2261,5 +2261,25 @@
       .head-icon.align{
         top: -4px;
       }
+
+      .head-icon.align{
+        top: -2px !important;
+      }
+      .footer-contact-list .flaticon-pin{
+        margin-top: -18px;
+      }
    
+      .newsletter-area h2 {
+        margin-bottom: 13px;
+      }
+      .subscribe-area {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    
+      }
+      .mobile-nav .logo img {
+        max-width: 152px;
+        height: 71px;
+        margin-top: -17px;
+    }
 }
